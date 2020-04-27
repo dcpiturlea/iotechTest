@@ -3,6 +3,11 @@
   margin-top:1.5%;
 }
 
+.formDiv{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 30px;
+}
 
 .socialMediaDiv{
   float: left;

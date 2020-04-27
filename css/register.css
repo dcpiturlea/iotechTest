@@ -1,0 +1,35 @@
+.register{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10%;
+}
+.form{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.form h3{
+    padding-bottom: 5%;
+    text-align: center;
+    color: #333;
+}
+
+.registerButton
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.input{
+width: 100%;
+}
+
+img{
+  width: 95%;
+}
