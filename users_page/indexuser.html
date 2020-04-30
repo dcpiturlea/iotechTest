@@ -36,18 +36,13 @@
             <a class="nav-link dropdown-toggle" id="userDropdown" role="button" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="setari.html">Setari</a><a class="dropdown-item" href="jurnal.html">Jurnal de activitate</a>
+              <a class="dropdown-item" href="setari.html">Setari</a><a class="dropdown-item" href="jurnal.html">Jurnal de activitate</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="../login.html">Logout</a>
             </div>
         </li>
     </ul>
 </nav>
-
-
-        <main>
-
-        </main>
 
 <div id="layoutSidenav">
     <div id="layoutSidenav_nav">
@@ -95,7 +90,77 @@
             </div>
         </nav>
     </div>
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid">
+                <h1 class="mt-4">Dashboard</h1>
+                <ol class="breadcrumb mb-4">
+                    <li class="breadcrumb-item active"></li>
+                </ol>
+                <div class="row">
 
+
+                    <div class="col-xl-3 col-md-6">
+                        <div class="card bg-success text-white mb-4">
+                            <div class="card-body">Parametrii in limita</div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <a class="small text-white stretched-link" href="rapoarte.html">Vedeti detalii</a>
+                                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-xl-6">
+                      <div class="card mb-4">
+                          <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Temperatura - ora 12:0</div>
+                          <div class="card-body">
+                              <canvas id="" width="100%" height="40"></canvas>
+                              <h2>23,4 *C</h2>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="col-xl-6">
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Temperatura medie</div>
+                            <div class="card-body">
+                                <canvas id="myAreaChart" width="100%" height="40"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Umiditate: ora 12:00</div>
+                            <div class="card-body">
+                                <canvas id="myAreaChart" width="100%" height="40"></canvas>
+                                <h2>56% *C</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Umiditatea medie</div>
+                            <div class="card-body">
+                                <canvas id="myBarChart" width="100%" height="40"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card mb-4">
+                            <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Calitate aer: ora 12:00</div>
+                            <div class="card-body">
+                                <canvas id="" width="100%" height="40"></canvas>
+                                <h2>120/150</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
 
 
     <div id="layoutSidenav_content">
@@ -115,7 +180,7 @@
         </footer>
     </div>
 </div>
-
+</div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
             crossorigin="anonymous"></script>
