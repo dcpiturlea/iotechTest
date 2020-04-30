@@ -17,7 +17,7 @@
 <body class="sb-nav-fixed">
 
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="admin.html">Contul Meu</a>
+    <a class="navbar-brand" href="indexuser.html">Contul Meu</a>
     <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i>
     </button
     ><!-- Navbar Search-->
@@ -33,49 +33,50 @@
     <!-- Navbar-->
     <ul class="navbar-nav ml-auto ml-md-0">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" id="userDropdown" role="button" data-toggle="dropdown"
                aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">Setari</a><a class="dropdown-item" href="#">Jurnal de activitate</a>
+              <a class="dropdown-item" href="setari.html">Setari</a><a class="dropdown-item" href="jurnal.html">Jurnal de activitate</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="../login.html">Logout</a>
             </div>
         </li>
     </ul>
 </nav>
+
+
+        <main>
+
+        </main>
+
 <div id="layoutSidenav">
     <div id="layoutSidenav_nav">
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Core</div>
-                    <a class="nav-link" href="admin.html"
-                    >
+                    <a class="nav-link" href="dashboard.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard</a>
 
                     <div class="sb-sidenav-menu-heading">Statistici</div>
-                    <a class="nav-link" href="charts.html"
-                    >
+                    <a class="nav-link" href="diagrame.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                        Diagrame</a
-                    ><a class="nav-link" href="tables.html"
-                >
+                        Diagrame</a><a class="nav-link" href="rapoarte.html">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                     Rapoarte</a>
                     <div class="sb-sidenav-menu-heading">Setari</div>
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts"
-                       aria-expanded="false" aria-controls="collapseLayouts"
-                    >
+                       aria-expanded="false" aria-controls="collapseLayouts">
                         <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                         Datele mele
-                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
-                        >
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
                          data-parent="#sidenavAccordion">
-                        <nav class="sb-sidenav-menu-nested nav"><a class="nav-link" href="layout-static.html">Date
-                            profil</a><a class="nav-link" href="layout-sidenav-light.html">Device-uri</a></nav>
+                        <nav class="sb-sidenav-menu-nested nav"><a class="nav-link"
+                                                                   href="date_profil.html">Date profil</a><a
+                                class="nav-link" href="device.html">Device-uri</a></nav>
                     </div>
 
 
@@ -84,44 +85,46 @@
                         Alerte</a>
                 </div>
             </div>
+            <div class="sb-sidenav-menu">
+                <img src="../images/logo_transparent_original.png" alt="" id="logo-side-menu-center">
+            </div>
+
+            <div class="sb-sidenav-footer">
+                <div class="small">Conectat ca:</div>
+                user
+            </div>
         </nav>
     </div>
-</div>
-</div>
-<div class="sb-sidenav-footer">
-    <div class="small">Conectat ca:</div>
-    user
-</div>
-</nav>
-</div>
-<div id="layoutSidenav_content">
 
-    <main>
 
-    </main>
-    <footer class="py-4 bg-light mt-auto">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center justify-content-between small">
-                <div class="text-muted">Copyright &copy; ioTech 2020</div>
-                <div>
-                    <a href="#">Politica de Confidențialitate</a>
-                    &middot;
-                    <a href="#">Termene &amp; Conditii</a>
+
+    <div id="layoutSidenav_content">
+
+
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; ioTech 2020</div>
+                    <div>
+                        <a href="confidentialitate.html">Politica de Confidențialitate</a>
+                        &middot;
+                        <a href="termene.html">Termene &amp; Conditii</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-<script src="assets/demo/chart-area-demo.js"></script>
-<script src="assets/demo/chart-bar-demo.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-<script src="assets/demo/datatables-demo.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="assets/demo/chart-area-demo.js"></script>
+    <script src="assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script src="assets/demo/datatables-demo.js"></script>
 </body>
 </html>
